@@ -16,7 +16,7 @@ pip install --upgrade Pillow
 ## How to use?
 Images beloging to an specific class (i.e. Trees) need to get stored into separate directories where the name of the directory is the class label. 
 
-![Alt text](images/dataset.jpg?raw=true "Dataset Organization")
+![](images/dataset.png)
 
 
 ## TODO:
