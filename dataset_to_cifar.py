@@ -12,8 +12,6 @@ __license__ = "GPL"
 __data__ = "May 25, 2017"
 
 
-
-
 def image_to_byte_array(image, class_index, size):
 
     img = Image.open(image)
@@ -120,6 +118,3 @@ def process_image_dataset(source, destination, size = (32, 32), batch = 1):
 
     close_batch(batch) 
 
-
-if __name__ == '__main__':
-    process_image_dataset('/home/s4x5/Documents/github/IDM/test', './') 
